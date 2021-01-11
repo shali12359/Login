@@ -39,7 +39,7 @@ export default class Signup extends Component {
     formData.append("name", this.state.name);
     formData.append("email", this.state.email);
 
-    var url = "http://localhost:80/PHP_REACT/backend/Signup.php";
+    var url = "http://localhost:80/Login/Login/backend/Signup.php";
 
     axios.post(url, formData)
       .then(res => { 

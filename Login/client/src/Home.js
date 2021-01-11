@@ -17,7 +17,7 @@ export default class Home extends Component {
   }
 
   componentDidMount() {
-    var url = "http://localhost:80/PHP_REACT/backend/UserList.php";
+    var url = "http://localhost:80/Login/Login/backend/UserList.php";
 
     axios.get(url)
       .then(res => { 
