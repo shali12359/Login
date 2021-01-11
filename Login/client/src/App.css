@@ -1,0 +1,22 @@
+body {
+    background-color: #263238 !important;  
+    color: white !important; 
+}
+
+.jumbotron {
+    color: #263238;
+}
+
+.signinNav {
+    text-align: center;
+}
+
+.table {
+    color: white !important;
+}
+
+.Copyright {
+    margin-top: 80px;;
+}
+
+
